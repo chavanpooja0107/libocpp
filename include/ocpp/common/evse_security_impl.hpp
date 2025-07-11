@@ -93,7 +93,7 @@ evse_security::OCSPRequestData from_ocpp(OCSPRequestData other);
 evse_security::CertificateOCSP from_ocpp(CertificateOCSP other);
 evse_security::CertificateInfo from_ocpp(CertificateInfo other);
 
-}; // namespace conversions
+} // namespace conversions
 
 } // namespace ocpp
 
