@@ -32,7 +32,7 @@ public:
     explicit ChargingStationBase(const std::shared_ptr<EvseSecurity> evse_security,
                                  const std::optional<SecurityConfiguration> security_configuration = std::nullopt);
     virtual ~ChargingStationBase();
-};
+}
 
 } // namespace ocpp
 

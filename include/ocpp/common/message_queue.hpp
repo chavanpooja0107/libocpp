@@ -1052,7 +1052,7 @@ public:
 
     M string_to_messagetype(const std::string& s);
     std::string messagetype_to_string(M m);
-};
+}
 
 } // namespace ocpp
 #endif // OCPP_COMMON_MESSAGE_QUEUE_HPP
